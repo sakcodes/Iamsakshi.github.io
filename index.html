@@ -1,0 +1,141 @@
+<!--The flex box is CSS Layout Design build using display:flex property. Flexbox is used to build one-dimensional layout in css. One dimensional means flexbox can build layout in one dimension ( either row or column ) at one time. For two-dimensional layouts, use CSS Grids that can handle both row and column.-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="profile-card">
+            <div class="profile-pic">
+                <img src="profile.jpeg" alt="avatar">
+            </div>
+            <div class="profile-details">
+                <div class="intro">
+                    <h2>Sakshi Shrivastava</h2>
+                    <h4>Eletrical and Electronics Engineering</h4>
+                    <div class="socials">
+                        <!---A blank href property is actually a hyperlink to the current page. In other words, it will cause a page refresh. As I discussed, href="#" is also a hyperlink, and causes scrolling. Therefore, the best solution for hyperlink placeholders is actually href="#!" The idea here is that there hopefully isn't an element on the page with id="!" (who does that!?) and the hyperlink therefore refers to nothing - so nothing happens.-->
+                        <a href="https://www.instagram.com/sakshishrivastava23/" target="_blank"> <i class="fab fa-instagram" style="color: purple"></i></a>
+                        <a href="https://www.linkedin.com/in/sakshi-shrivastava-3a187121b/" target="_blank"> <i class="fab fa-linkedin" style="color: blue;"></i></a>
+                        <a href="#"> <i class="fab fa-twitter" style="color: skyblue"></i></a>
+                    </div>
+
+                </div>
+                <div class="contact-info">
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-phone" style="color:magenta"></i>
+                        </div>
+
+                        <div class="content">
+                            <span>Phone</span>
+                            <h5>+91-7043979597</h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-envelope-open" style="color:green"></i>
+                        </div>
+
+                        <div class="content">
+                            <span>Email</span>
+                            <h5>saksih23@gmail.com</h5>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="icon">
+                            <i class="fa fa-map-marker" style="color:lightcoral"></i>
+                        </div>
+
+                        <div class="content">
+                            <span>Location</span>
+                            <h5>Manipal</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="download-btn">Download CV</button>
+            </div>
+        </div>
+
+        <div class="about">
+            <h1>About me </h1>
+            <p>Computers have always intrigued me, and the potential of technology to transform societies is simply mind-blowing. I can't wait to dive deeper into this exciting world and see how I can combine it with my electrical engineering knowledge to create innovative solutions.
+                <br>
+                <br>
+                But I also understand that technical expertise alone isn't sufficient to bring ideas to life. That's where my interest in business management comes into play. I believe that understanding the intricacies of management is essential to ensure the successful implementation of innovative projects. </p>
+
+            <h2>What I do</h2>
+
+
+            <div class="work">
+                <div class="workbox">
+                    <div class="icon">  <img src="electrical.png" style="height: 40px; width: 40px;"></div>
+                    <div class="desc">
+                        <h3>Electrical</h3>
+                        
+                        <p>
+                            Published a review paper based fabrication of UWB antennae.<a href="https://doi.org/10.3390/s22239549" target="_blank"><button class="link">LINK</button></a>
+                            <br> <br>Skills
+                                <li>Matlab</li>
+                                <li>Simulink</li>
+                                <li>LTspice</li>
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="workbox">
+                    <div class="icon">  <img src="coding.png" style="height: 40px; width: 40px;"></div>
+                    <div class="desc">
+                        <h3>Coding</h3>
+                        <p>Satisfactory knowledge of Data structures and algorithms  <a href="https://doi.org/10.3390/s22239549" target="_blank"><button class="medium">Github link</button></a>
+                        <br><br>Skills<br>
+                                <li>C++</li>
+                                <li>HTML, CSS, Javascript</li>
+                                <li>Python</li></p>
+                
+                    </div>
+
+                </div>
+
+                <div class="workbox">
+                    <div class="icon">  <img src="design.png" style="height: 40px; width: 40px;"></div>
+                    <div class="desc">
+                        <h3>Business Management</h3>
+                        <p>Pursuing Minor in Business management<br>
+                            <br>Work Experience<br>
+                                <li>Internship in AL-Salam Bank, Seychelles.</li>
+                              
+                        </p><br>
+                    </div>
+
+                </div>
+
+                <div class="workbox">
+                    <div class="icon">  <img src="webdev.png" style="height: 40px; width: 40px;"></div>
+                    <div class="desc">
+                        <h3>Graphic Design</h3>
+                        <p>Worked under professor to create diagrams and Ilustrations for Review/Research paper publication<a href="https://drive.google.com/drive/folders/1PKD4CXJA3Mt_y1U_74Ggm9Go9XO1YsE9?usp=sharing" target="_blank"><button class="link">LINK</button></a>
+                            <br><br>Skills<br>
+                            <li>Figma</li>
+                            <li>Canva</li>
+                            <li>Photoshop</li></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
